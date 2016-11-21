@@ -10,7 +10,6 @@ body, html{
 }
 
 
-
 // UTILITIES
 // hr{
 //   color: #394EFF;
@@ -18,8 +17,9 @@ body, html{
 //   display: block;
 // }
 
-
+// -------------------------------------------------------------------------------
 // HEADER BANNER
+// -------------------------------------------------------------------------------
 .header{
   // background-color: blue;
   max-width:100%;
@@ -35,13 +35,15 @@ body, html{
     margin: auto;
   }
 }
-
+// -------------------------------------------------------------------------------
 // SECTION 1 - INTRO BLACKBOX
+// -------------------------------------------------------------------------------
 .bboxIntro{
   max-width: 950px;
   margin: 0 auto;
 
   &-containerTop{
+    width: 100%;
     margin: 20px 0;
     img{
       //svg 1
@@ -49,13 +51,15 @@ body, html{
   }
 
   &-containerMid{
+    width: 100%;
+    margin: 20px 0;
     &-title{
       font-size: 2.75em;
       line-height: 50px;
     }
     &-text{
       display: flex;
-      margin: 20px 0;
+
       .pl{
         // background-color: green;
         margin-right: 2%;
@@ -70,8 +74,9 @@ body, html{
   }
 
   &-containerBot{
-      display: flex;
-      width: 100%;
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
     &-img{
       width: 25%;
       img{
@@ -92,9 +97,59 @@ body, html{
   &-hrbottom{
     background: #394EFF;
     border: none;
-    border-color: #394EFF;
     height: 1px;
-
   }
+}
 
+// -------------------------------------------------------------------------------
+// <!-- SECTION 2 - COUNTER -->
+// -------------------------------------------------------------------------------
+.bboxcounter{
+
+  background-color: #394EFF;
+
+  &-cont{
+    font-family: "ATC Harris", Courier, monospace;
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    &-texthead{
+
+      margin-top: 70px;
+      margin-bottom: 20px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.1em;
+
+    }
+    &-chrono{
+      border-right: solid;
+      border-color: white;
+      border-width: 0 1px 0 0;
+      width: 950px;
+      color: white;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 5px;
+
+      .element{
+        width: 158px;
+        line-height: 1.5em;
+        font-size: 8.5em;
+        border-style: solid;
+        border-width: 1px 0px 1px 1px;
+        border-color: white;
+      }
+    }
+    &-bottom{
+      color: white;
+      margin: 20px auto;
+      margin-bottom: 70px;
+    }
+  }
 }
