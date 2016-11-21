@@ -1,0 +1,33 @@
+body, html{
+  font-size: 16px;
+}
+
+// UTILITIES
+hr{
+  color: #394EFF;
+  height: 1px;
+  display: block;
+}
+
+
+// HEADER BANNER
+.header{
+  // background-color: blue;
+  max-width:100%;
+  &-banner{
+    height: 100%;
+  }
+  img{
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+// SECTION 1 - INTRO BLACKBOX
+.blackboxIntro{
+  // background-color: brown;
+}
