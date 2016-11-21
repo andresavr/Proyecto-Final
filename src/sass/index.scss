@@ -1,15 +1,22 @@
 body, html{
-  font-size: 16px;
+  font-size: 17px;
+  color: #394EFF;
+  background-color: #F9F9F6;
+  line-height: 25.5px;
+  font-family: "Graphik", Helvetica, Arial, sans-serif;;
+  font-weight: normal;
+
+
 }
 
 
 
 // UTILITIES
-hr{
-  color: #394EFF;
-  height: 1px;
-  display: block;
-}
+// hr{
+//   color: #394EFF;
+//   height: 1px;
+//   display: block;
+// }
 
 
 // HEADER BANNER
@@ -30,6 +37,64 @@ hr{
 }
 
 // SECTION 1 - INTRO BLACKBOX
-.blackboxIntro{
-  // background-color: brown;
+.bboxIntro{
+  max-width: 950px;
+  margin: 0 auto;
+
+  &-containerTop{
+    margin: 20px 0;
+    img{
+      //svg 1
+    }
+  }
+
+  &-containerMid{
+    &-title{
+      font-size: 2.75em;
+      line-height: 50px;
+    }
+    &-text{
+      display: flex;
+      margin: 20px 0;
+      .pl{
+        // background-color: green;
+        margin-right: 2%;
+        width: 100%;
+      }
+      .pr{
+        margin-left: 2%;
+        // background-color: blue;
+        width: 100%;
+      }
+    }
+  }
+
+  &-containerBot{
+      display: flex;
+      width: 100%;
+    &-img{
+      width: 25%;
+      img{
+        // width: 100%;
+      }
+    }
+    &-text{
+      width: 75%;
+    }
+  }
+
+  &-hrtop{
+    border-style: none;
+    background: #394EFF;
+    height: 2px;
+    width: 100%;
+  }
+  &-hrbottom{
+    background: #394EFF;
+    border: none;
+    border-color: #394EFF;
+    height: 1px;
+
+  }
+
 }

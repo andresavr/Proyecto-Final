@@ -1,10 +1,10 @@
 body, html {
-  font-size: 16px; }
-
-hr {
+  font-size: 17px;
   color: #394EFF;
-  height: 1px;
-  display: block; }
+  background-color: #F9F9F6;
+  line-height: 25.5px;
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+  font-weight: normal; }
 
 .header {
   max-width: 100%; }
@@ -17,3 +17,38 @@ hr {
     left: 0;
     right: 0;
     margin: auto; }
+
+.bboxIntro {
+  max-width: 950px;
+  margin: 0 auto; }
+  .bboxIntro-containerTop {
+    margin: 20px 0; }
+  .bboxIntro-containerMid-title {
+    font-size: 2.75em;
+    line-height: 50px; }
+  .bboxIntro-containerMid-text {
+    display: flex;
+    margin: 20px 0; }
+    .bboxIntro-containerMid-text .pl {
+      margin-right: 2%;
+      width: 100%; }
+    .bboxIntro-containerMid-text .pr {
+      margin-left: 2%;
+      width: 100%; }
+  .bboxIntro-containerBot {
+    display: flex;
+    width: 100%; }
+    .bboxIntro-containerBot-img {
+      width: 25%; }
+    .bboxIntro-containerBot-text {
+      width: 75%; }
+  .bboxIntro-hrtop {
+    border-style: none;
+    background: #394EFF;
+    height: 2px;
+    width: 100%; }
+  .bboxIntro-hrbottom {
+    background: #394EFF;
+    border: none;
+    border-color: #394EFF;
+    height: 1px; }
