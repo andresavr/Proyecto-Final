@@ -1,5 +1,5 @@
 body, html {
-  font-size: 17px;
+  font-size: 16px;
   color: #394EFF;
   background-color: #F9F9F6;
   line-height: 25.5px;
@@ -94,3 +94,38 @@ body, html {
       color: white;
       margin: 20px auto;
       margin-bottom: 70px; }
+
+.bboxview {
+  padding: 80px;
+  margin: 0 auto; }
+  .bboxview-wrap {
+    display: flex; }
+    .bboxview-wrap-image {
+      width: 50%; }
+      .bboxview-wrap-image img {
+        height: 100%; }
+    .bboxview-wrap-text {
+      padding-top: 50px;
+      padding-left: 60px;
+      padding-right: 60px;
+      position: relative;
+      width: 50%;
+      background-color: #FFA7D0;
+      color: white; }
+    .bboxview-wrap .ptop {
+      font-size: 1.3em; }
+    .bboxview-wrap .tittle {
+      font-size: 2.5em; }
+    .bboxview-wrap .p {
+      font-size: 1.1em;
+      font-weight: normal; }
+    .bboxview-wrap .button {
+      padding: 18px 30px;
+      width: 60%;
+      background-color: #74E4D0;
+      border-radius: 8px;
+      box-shadow: inset 2px -6px rgba(0, 0, 0, 0.2);
+      border: none;
+      color: white;
+      font-size: 1.3em;
+      font-weight: bold; }
