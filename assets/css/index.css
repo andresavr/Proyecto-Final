@@ -193,3 +193,30 @@ body, html {
     margin-bottom: 45px;
     color: white;
     font-size: 1em; }
+
+.bboxquest {
+  margin-top: 70px; }
+  .bboxquest-content {
+    max-width: 950px;
+    margin: 0 auto; }
+    .bboxquest-content-hrtop {
+      color: #394EFF;
+      border-style: solid;
+      border-width: 1px; }
+    .bboxquest-content-title {
+      font-size: 2.8em;
+      padding-bottom: 60px; }
+    .bboxquest-content-list {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .bboxquest-content-list hr {
+        border-style: none;
+        background: #394EFF;
+        height: 1px;
+        width: 100%; }
+      .bboxquest-content-list li {
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        font-size: 1.15rem; }

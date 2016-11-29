@@ -215,7 +215,6 @@ body, html{
 // <!-- SECTION 4 - CONTACT SECTION-->
 // -------------------------------------------------------------------------------
 
-
 .contact{
   background-color: #394EFF;
   margin: 0 auto;
@@ -309,5 +308,47 @@ body, html{
   }
 
 
+
+}
+
+// -------------------------------------------------------------------------------
+// <!-- SECTION 5 - QUESTIONS-->
+// -------------------------------------------------------------------------------
+
+.bboxquest{
+  margin-top: 70px;
+  // background-color: gray;
+  &-content{
+    max-width: 950px;
+    margin: 0 auto;
+    &-hrtop{
+      color: #394EFF;
+      border-style: solid;
+      border-width: 1px;
+    }
+    &-title{
+      font-size: 2.8em;
+      padding-bottom: 60px;
+    }
+    &-list{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      hr{
+        border-style: none;
+        background: #394EFF;
+        height: 1px;
+        width: 100%;
+      }
+      li{
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        font-size: 1.15rem;
+      }
+
+
+    }
+  }
 
 }
