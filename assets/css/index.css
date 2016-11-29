@@ -20,7 +20,8 @@ body, html {
 
 .bboxIntro {
   max-width: 950px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 50px; }
   .bboxIntro-containerTop {
     width: 100%;
     margin: 20px 0; }
@@ -220,3 +221,42 @@ body, html {
         justify-content: space-between;
         font-weight: bold;
         font-size: 1.15rem; }
+
+.footer {
+  background-color: #394EFF;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  margin-top: 60px; }
+  .footer-contentCols {
+    display: flex;
+    justify-content: space-around; }
+    .footer-contentCols-colicon {
+      width: 30%;
+      position: relative;
+      top: 50px;
+      left: 90px; }
+      .footer-contentCols-colicon img {
+        margin: auto; }
+      .footer-contentCols-colicon h3 {
+        margin-top: 20px;
+        font-size: 2.5em; }
+    .footer-contentCols hr {
+      margin-top: 65px;
+      border-style: none;
+      background: white;
+      height: 2px;
+      width: 100%; }
+    .footer-contentCols h5 {
+      margin-top: 10px;
+      font-size: 1em; }
+    .footer-contentCols ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      line-height: 40px; }
+      .footer-contentCols ul a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.05em; }

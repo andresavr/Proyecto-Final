@@ -41,7 +41,7 @@ body, html{
 .bboxIntro{
   max-width: 950px;
   margin: 0 auto;
-
+  margin-bottom: 50px;
   &-containerTop{
     width: 100%;
     margin: 20px 0;
@@ -348,6 +348,69 @@ body, html{
       }
 
 
+    }
+  }
+
+}
+
+// -------------------------------------------------------------------------------
+// <!-- SECTION 6 - FOOTER-->
+// -
+
+
+.footer{
+  background-color: #394EFF;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  margin-top: 60px;
+
+  &-contentCols{
+    display: flex;
+    justify-content: space-around;
+
+    &-colicon{
+      width: 30%;
+      position: relative;
+      top: 50px;
+      left: 90px;
+      img{
+        margin: auto;
+      }
+      h3{
+        margin-top: 20px;
+        font-size: 2.5em;
+      }
+    }
+    hr{
+      margin-top: 65px;
+      border-style: none;
+      background: white;
+      height: 2px;
+      width: 100%;
+    }
+    h5{
+      margin-top: 10px;
+      font-size:1em;
+    }
+    ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      line-height: 40px;
+      a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.05em;
+      }
+    }
+
+    &-colend{
+
+      &-formfooter{
+        
+      }
     }
   }
 
