@@ -1,0 +1,54 @@
+@media screen and (max-width: 1170px) {
+  .bboxview {
+    padding: 80px; }
+    .bboxview-wrap {
+      width: inherit;
+      flex-direction: column; }
+      .bboxview-wrap-image {
+        width: 100%;
+        height: 100%;
+        background-color: #FFA7D0; }
+        .bboxview-wrap-image img {
+          width: 100%;
+          height: 100%;
+          padding-bottom: 0; }
+      .bboxview-wrap-text {
+        width: inherit;
+        padding-top: 35px;
+        padding-bottom: 70px; }
+        .bboxview-wrap-text button {
+          margin-top: 30px; }
+  .footer {
+    position: absolute; }
+    .footer-contentCols {
+      flex-direction: column;
+      background-color: #394EFF;
+      padding: 30px; }
+      .footer-contentCols-colicon {
+        padding-bottom: 20px;
+        position: relative;
+        left: 0;
+        margin-bottom: 5px; }
+      .footer-contentCols-subcols {
+        margin-bottom: 5px; }
+        .footer-contentCols-subcols .colmore {
+          width: 50%; }
+      .footer-contentCols-colcontact {
+        width: 50%; }
+      .footer-contentCols-colend {
+        margin-left: 0; }
+        .footer-contentCols-colend .formfooter-index {
+          height: 100%;
+          width: 90%; }
+          .footer-contentCols-colend .formfooter-index textarea {
+            height: 50%;
+            padding: 0;
+            padding-left: 15px;
+            padding-top: 12px;
+            padding-bottom: 5px;
+            margin-top: 5px;
+            width: inherit; }
+          .footer-contentCols-colend .formfooter-index .submitbutton {
+            width: 10%; }
+      .footer-contentCols hr {
+        margin-top: 10px; } }

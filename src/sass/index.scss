@@ -161,26 +161,31 @@ body, html{
 
   padding: 80px;
   margin: 0 auto;
-
   &-wrap{
-    display: flex;
 
+    display: flex;
+    justify-content: center;
     &-image{
         width: 50%;
-
+        background-color: gray;
+        margin-bottom: 0px;
 
         img{
+          position: relative;
           height: 100%;
-
-
+          width: 100%;
         }
     }
+
     &-text{
+       width: 42%;
        padding-top: 50px;
-       padding-left: 60px;
-       padding-right: 60px;
+       padding-left: 4%;
+       padding-right: 4%;
+       padding-bottom: 50px;
+
        position: relative;
-       width: 50%;
+
        background-color: #FFA7D0;
        color: white;
 
@@ -370,8 +375,16 @@ body, html{
     max-width: 1300px;
     display: flex;
     justify-content: space-around;
+    &-subcols{
+      display: flex;
+      justify-content: space-between;
+      .colmore{
+        margin-right: 40px;
+      }
 
+    }
     &-colend{
+       margin-left: 5px;
       .formfooter{
         display: flex;
         justify-content: space-around;
@@ -394,7 +407,7 @@ body, html{
             padding-top: 6%;
             padding-bottom: 4%;
             padding-left: 4%;
-            
+
           }
 
         }
