@@ -1,6 +1,6 @@
 @media screen and (max-width: 1170px) {
   .bboxview {
-    padding: 80px; }
+    padding: 20px; }
     .bboxview-wrap {
       width: inherit;
       flex-direction: column; }
@@ -15,7 +15,7 @@
       .bboxview-wrap-text {
         width: inherit;
         padding-top: 35px;
-        padding-bottom: 70px; }
+        padding-bottom: 20px; }
         .bboxview-wrap-text button {
           margin-top: 30px; }
   .footer {
@@ -52,3 +52,145 @@
             width: 10%; }
       .footer-contentCols hr {
         margin-top: 10px; } }
+
+@media screen and (max-width: 980px) {
+  .bboxIntro {
+    padding: 20px; }
+  .bboxcounter-cont {
+    padding: 20px; }
+    .bboxcounter-cont-chrono {
+      width: 100%;
+      border-width: 0 1px 0 0;
+      color: white;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 5px; }
+      .bboxcounter-cont-chrono .element {
+        line-height: 1.1em; }
+  .contact-wrap {
+    padding: 20px; }
+  .bboxquest {
+    padding: 20px; } }
+
+@media screen and (max-width: 665px) {
+  .bboxquest-content-title {
+    line-height: normal; } }
+
+@media screen and (max-width: 640px) {
+  .bboxIntro-containerMid-text {
+    flex-direction: column;
+    margin: 0 auto; }
+    .bboxIntro-containerMid-text .pr {
+      margin: 0 auto; }
+  .footer-contentCols-subcols {
+    flex-direction: column; }
+    .footer-contentCols-subcols .colmore {
+      width: 100%; }
+  .footer-contentCols-colcontact {
+    width: 100%; }
+  .contact-wrap h1 {
+    line-height: normal; }
+  .contact-wrap-formsectiontop {
+    flex-direction: column;
+    margin-bottom: 0px; }
+    .contact-wrap-formsectiontop textarea {
+      width: inherit;
+      margin-bottom: 10px; }
+  .contact-wrap-formsectionbottom {
+    flex-direction: column; }
+    .contact-wrap-formsectionbottom textarea {
+      width: inherit;
+      margin-bottom: 10px; }
+  .contact-wrap-button {
+    width: 100%; }
+  .bboxview-wrap-text .button {
+    width: 100%; } }
+
+@media screen and (max-width: 950px) {
+  .bboxIntro-containerBot-img {
+    padding-right: 10px; }
+  .bboxIntro-containerBot-text {
+    padding-left: 10px; } }
+
+@media screen and (max-width: 770px) {
+  .bboxIntro-containerBot {
+    flex-direction: column; }
+    .bboxIntro-containerBot-img {
+      width: inherit;
+      text-align: center; }
+    .bboxIntro-containerBot-text {
+      width: inherit; } }
+
+@media screen and (max-width: 635px) {
+  .bboxcounter-cont {
+    padding: 20px; }
+    .bboxcounter-cont-chrono {
+      width: 100%;
+      border-width: 0 1px 0 0;
+      color: white;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 5px; }
+      .bboxcounter-cont-chrono .element {
+        line-height: 1.1em;
+        font-size: 6.5em; } }
+
+@media screen and (max-width: 500px) {
+  .bboxcounter-cont {
+    padding: 20px; }
+    .bboxcounter-cont-chrono {
+      width: 100%;
+      border-width: 0 1px 0 0;
+      color: white;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 5px; }
+      .bboxcounter-cont-chrono .element {
+        line-height: 1em;
+        font-size: 4.8em; } }
+
+@media screen and (max-width: 500px) {
+  .bboxcounter-cont {
+    padding: 20px; }
+    .bboxcounter-cont-chrono {
+      width: 100%;
+      border-width: 0 1px 0 0;
+      color: white;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 5px; }
+      .bboxcounter-cont-chrono .element {
+        line-height: 1em;
+        font-size: 4.8em; } }
+
+@media screen and (max-width: 384px) {
+  .bboxcounter-cont {
+    padding: 20px; }
+    .bboxcounter-cont-chrono .element {
+      line-height: 1em;
+      font-size: 2.8em; }
+  .bboxIntro-containerBot .button {
+    font-size: 1em; } }
+
+@media screen and (max-width: 250px) {
+  body {
+    font-size: 0.9em; }
+  .bboxcounter-cont {
+    padding: 20px; }
+    .bboxcounter-cont-chrono .element {
+      line-height: 1em;
+      font-size: 1.5em; }
+  .bboxIntro-containerBot .button {
+    font-size: 1em; } }

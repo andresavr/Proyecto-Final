@@ -45,9 +45,12 @@ body, html{
   &-containerTop{
     width: 100%;
     margin: 20px 0;
-    img{
-      //svg 1
+    font-size: 9em;
+    a{
+      color: #394EFF;
+      text-decoration: none;
     }
+
   }
 
   &-containerMid{
@@ -59,7 +62,6 @@ body, html{
     }
     &-text{
       display: flex;
-
       .pl{
         // background-color: green;
         margin-right: 2%;
@@ -78,13 +80,49 @@ body, html{
     width: 100%;
     margin: 20px 0;
     &-img{
-      width: 25%;
-      img{
-        // width: 100%;
+      width: 20%;
+
+      font-size: 10.3em;
+      color: #394EFF;
+      a{
+        color: #394EFF;
+        text-decoration: none;
       }
+
     }
     &-text{
-      width: 75%;
+      width: 80%;
+
+      h3{
+        font-size: 1.3em;
+      }
+      button{
+        position: absolute;
+        background-color: #394EFF;
+        padding: 18px 30px;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        font-size: 1.3em;
+        line-height: normal;
+        font-weight: bold;
+        box-shadow: inset 2px -6px rgba(0,0,0,0.2);
+        color: transparentize(white, 0.5);
+
+        span{
+          color: transparentize(white, 0.5);
+          position: relative;
+          left: -15px;
+          top: 1px;
+        }
+        &:hover{
+          background-color: transparentize(blue, 0.3);
+          color: transparentize(white, 0);
+          span{
+            color: transparentize(white, 0);
+          }
+        }
+      }
     }
   }
 
@@ -136,7 +174,9 @@ body, html{
       margin: 0 auto;
       text-align: center;
       margin-bottom: 5px;
-
+      div{
+        padding: 0;
+      }
       .element{
         width: 158px;
         line-height: 1.5em;
@@ -150,6 +190,11 @@ body, html{
       color: white;
       margin: 20px auto;
       margin-bottom: 70px;
+      border-width: 1px;
+
+      border-left: solid;
+      border-right: solid;
+
     }
   }
 }
@@ -444,8 +489,8 @@ body, html{
       position: relative;
       top: 50px;
       left: 90px;
-      img{
-        margin: auto;
+      span{
+        font-size: 6em;
       }
       h3{
         margin-top: 20px;
