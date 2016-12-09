@@ -109,6 +109,7 @@ body, html{
         box-shadow: inset 2px -6px rgba(0,0,0,0.2);
         color: transparentize(white, 0.5);
 
+
         span{
           color: transparentize(white, 0.5);
           position: relative;
@@ -190,10 +191,9 @@ body, html{
       color: white;
       margin: 20px auto;
       margin-bottom: 70px;
-      border-width: 1px;
-
-      border-left: solid;
-      border-right: solid;
+      border-width: 0.5px;
+      border-style: solid;
+      border-width: 0px 1px 0px 1px;
 
     }
   }
@@ -255,6 +255,9 @@ body, html{
       color: white;
       font-size: 1.3em;
       font-weight: bold;
+      &:hover{
+        background-color: transparentize(#74E4D0, 0.1);
+      }
     }
 
   }
